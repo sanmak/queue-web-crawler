@@ -1,0 +1,15 @@
+{
+	"asyncapp" :{	
+		"logfilename" : "asyncapp.txt",
+		"csvfilename" : "asyncapp.csv"
+	},
+	"emitterapp" : {
+		"logfilename" : "emitterapp.txt",
+		"csvfilename" : "emitterapp.csv"
+	},
+	"urltocrawl" : "https://medium.com/",
+	"queueworkers" : 5,
+	"logfilewritemodeflag" : "w",
+	"csvfilewritemodeflag" : "w"
+
+}

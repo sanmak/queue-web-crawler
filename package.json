@@ -1,0 +1,30 @@
+{
+  "name": "queue-web-crawler",
+  "version": "1.0.0",
+  "description": "This application is developed to crawl a website using queue and find all possible hyperlinks present within it and save it to CSV file.",
+  "scripts": {
+    "asyncapp" : "node withAsyncLibrary.js",
+    "emitterapp" : "node withOutAsyncLibrary.js",
+    "test": "node mochaTest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanmak/queue-web-crawler.git"
+  },
+  "keywords": [
+    "crawler",
+    "queue"
+  ],
+  "dependencies": {
+    "async": "^2.1.4",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "request": "^2.79.0"
+  },
+  "author": "Sanket Makhija",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanmak/queue-web-crawler/issues"
+  },
+  "homepage": "https://github.com/sanmak/queue-web-crawler#readme"
+}
